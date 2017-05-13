@@ -1,6 +1,7 @@
 package com.example.loic.sudo_clue;
 
 import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 GridLayout.LayoutParams gridParam = new GridLayout.LayoutParams(rowSpan, colSpan);
                 Button button = new Button(this);
                 getAreaColored(i, j, button);
+                button.getResources().getDrawable(R.drawable.button_border);
                 button.setLayoutParams(gridParam);
                 matrice[i][j] = 0;
 
@@ -78,6 +80,11 @@ public class MainActivity extends AppCompatActivity {
                     myInt = z;
                 }
             });
+            GradientDrawable gd = new GradientDrawable();
+            gd.setColor(0xFF00FF00); // Changes this drawable to use a single color instead of a gradient
+            gd.setCornerRadius(5);
+            gd.setStroke(1, 0xFF000000);
+            button.setBackgroundDrawable(gd);
             gridLayout.addView(button, gridParam);
         }
         // Solver and Eraser
