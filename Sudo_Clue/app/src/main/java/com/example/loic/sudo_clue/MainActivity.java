@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     myInt = z;
+     // If push one of these you add a number even if you pushed previously eraser's button
                     if (eraser){
                         eraser = false;
                     }
@@ -91,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
             gridLayout.addView(button, gridParam);
         }
+
         // Solver and Eraser
         for (int j = 0; j < 2; j++) {
             final int z= j ;
