@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Affectation of the Scroll Bar at all the GridLayout -->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="horizontal">
+
+    <ScrollView
+        android:id="@+id/container_scroll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <GridLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/portraitMainGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.example.loic.sudo_clue.ViewActivity"
+            android:background="@android:color/transparent">
+        </GridLayout>
+
+        <GridLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/portraitAuxiliaryGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.example.loic.sudo_clue.ViewActivity"
+            android:background="@android:color/transparent">
+        </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</HorizontalScrollView>

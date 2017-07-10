@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sudo-Clue</string>
+    <string name="first_sentence">Bienvenidos en la aplicación Sudo-Clue \n </string>
+    <string name="introduction">Sudo-Clue es una aplicación para ayudar a resolver tablas de Sudoku que presentan dificultades.
+        \n\n Porque un número puede cambiarlo todo, la aplicación revela sólo un dígito en la tabla cuando quiere</string>
+    <string name="portraitButtonText">Entonces puede elegir la vista vertical</string>
+    <string name="landscapeButtonText">O la adaptada vista horizontal</string>
+    <string name="producers">Desarrollada por Loïc ALBARRACIN y Nicolas RAHMAT</string>
+    <string name="wait">Espere por favor</string>
+    <string name="action">Actualmente estamos trabajando para resolver la tabla</string>
+    <string name="erase">BORRAR</string>
+    <string name="clue">PISTA</string>
+    <string name="solve">RESOLVER</string>
+    <string name="home">CASA</string>
+    <string name="reset">REINICIAR</string>
+    <string name="solve_text">Esta tabla ha sido resuelta !</string>
+    <string name="solve_no_text">Esta tabla no tiene solución &#8230;</string>
+    <string name="solve_error">Algo no funciona. ¿ Podría verificar si la tabla no comporta error ?</string>
+    <string name="solve_not_enough">Hay que tener más de 17 números en la tabla,
+        ¿ Podría añadir más números ?</string>
+</resources>

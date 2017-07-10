@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sudo-Clue</string>
+    <string name="first_sentence">Willkommen bei Sudo-Clue \n </string>
+    <string name="introduction">Sudo-Clue ist eine App, die Ihnen aushilft Sudoku-Gitter die Ihnen Ärger geben, zu lösen. \n\n Weil nur eine Nummer etwas bewirken kann, wird Ihnen diese App, jedes Mal, wenn Sie es anfragen werden, eine Zahl im Gitter zeigen.</string>
+    <string name="portraitButtonText">Sie können unser Portraitformat wählen</string>
+    <string name="landscapeButtonText">Oder unser Landschaftsformat wählen</string>
+    <string name="producers">Von Loïc ALBARRACIN und Nicolas RAHMAT erstellt.</string>
+    <string name="wait">Bitte warten</string>
+    <string name="action">Wir versuchen, Ihr Gitter zu lösen</string>
+    <string name="erase">Gummi</string>
+    <string name="clue">Anhaltspunkt</string>
+    <string name="solve">Löser</string>
+    <string name="home">Startseite</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="solve_text">Dieses Sudoku-Rätsel wurde gelöst !</string>
+    <string name="solve_no_text">Dieses Gitter hat keine Lösung &#8230;</string>
+    <string name="solve_error">Irgendetwas stimmt nicht. Könnten Sie bitte prüfen, ob das Gitter keine Fehler enthält ?</string>
+    <string name="solve_not_enough">Sie müssen mindestens 17 Nummern ins Gitter eingeben. Können Sie bitte mehr Zahlen einfügen ? </string>
+</resources>

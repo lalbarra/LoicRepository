@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Sudo_Clue</string>
+    <string name="app_name">Sudo-Clue</string>
+    <string name="first_sentence">Welcome to Sudo-Clue \n </string>
+    <string name="introduction">Sudo-clue is an app to help you solve Sudoku grids that give you trouble.
+\n\n Because one number can make the difference, the application reveals one digit on the grid each time you ask for it.</string>
+    <string name="portraitButtonText">So you can choose our adapted Portrait View</string>
+    <string name="landscapeButtonText">Or our adapted Landscape View</string>
+    <string name="producers">Produced by Loïc ALBARRACIN and Nicolas RAHMAT</string>
+    <string name="wait">Please wait</string>
+    <string name="action">We\'re currently trying to solve your grid</string>
+    <string name="erase">ERASE</string>
+    <string name="clue">CLUE</string>
+    <string name="solve">SOLVE</string>
+    <string name="home">HOME</string>
+    <string name="reset">RESET</string>
+    <string name="solve_text">This grid has been solved !</string>
+    <string name="solve_no_text">This grid doesn\'t have any solution &#8230;</string>
+    <string name="solve_error">Something went wrong. Please check if the grid was correctly filled in.</string>
+    <string name="solve_not_enough">You must have at least 17 numbers to have one and only one solution to your grid,
+so please add more numbers</string>
+
 </resources>
+

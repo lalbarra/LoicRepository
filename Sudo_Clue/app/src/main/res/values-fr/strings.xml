@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sudo-Clue</string>
+    <string name="first_sentence">Bienvenue dans Sudo-Clue \n </string>
+    <string name="introduction">Sudo-clue est une application qui vous aide à résoudre toutes les grilles de Sudoku vous posant problème.
+        \n\n Parce que la connaissance d\'un seul nombre peut faire la différence, l\'application vous révèlera un chiffre dans la grille
+        à chaque fois que vous lui demanderez</string>
+    <string name="portraitButtonText">Vous pouvez donc choisir notre vue au format Portrait</string>
+    <string name="landscapeButtonText">Ou notre vue adaptée au format Paysage </string>
+    <string name="producers">Elaborée par Loïc ALBARRACIN et Nicolas RAHMAT</string>
+    <string name="wait">Veuillez patienter</string>
+    <string name="action">Nous sommes actuellement en train de résoudre votre grille</string>
+    <string name="erase">GOMME</string>
+    <string name="clue">INDICE</string>
+    <string name="solve">SOLVEUR</string>
+    <string name="home">ACCUEIL</string>
+    <string name="reset">RÉINITIALISER</string>
+    <string name="solve_text">Cette grille a été résolue !</string>
+    <string name="solve_no_text">Cette grille n\'a pas de solution &#8230;</string>
+    <string name="solve_error">Quelque chose ne va pas. Pourriez-vous vérifier si la grille ne comporte pas d\'erreur ?</string>
+    <string name="solve_not_enough">Vous devez avoir au moins 17 numéros dans la grille.
+        Pourriez-vous ajouter plus de numéros ? </string>
+</resources>

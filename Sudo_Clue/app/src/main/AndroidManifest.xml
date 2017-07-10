@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TroimsActivity"/>
+        <activity android:name=".PortraitView"/>
+        <activity android:name=".LandscapeView"/>
+        <activity android:name=".ViewActivity"/>
     </application>
 
 </manifest>
