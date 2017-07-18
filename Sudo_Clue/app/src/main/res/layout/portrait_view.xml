@@ -23,7 +23,7 @@
             android:id="@+id/portraitMainGridLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context="com.example.loic.sudo_clue.ViewActivity"
+            tools:context="com.albarracin.loic.sudo_clue.ViewActivity"
             android:background="@android:color/transparent">
         </GridLayout>
 
@@ -32,7 +32,7 @@
             android:id="@+id/portraitAuxiliaryGridLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context="com.example.loic.sudo_clue.ViewActivity"
+            tools:context="com.albarracin.loic.sudo_clue.ViewActivity"
             android:background="@android:color/transparent">
         </GridLayout>
 

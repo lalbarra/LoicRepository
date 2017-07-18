@@ -1,4 +1,4 @@
-package com.example.loic.sudo_clue;
+package com.albarracin.loic.sudo_clue;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -8,11 +8,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.os.Process;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -20,7 +16,7 @@ import android.widget.GridLayout;
 import android.widget.Toast;
 
 /**
- * Created by loic on 01/06/2017.
+ * Created by loic albarracin on 01/06/2017.
  */
 
 public class ViewActivity extends AppCompatActivity {
@@ -313,7 +309,7 @@ public class ViewActivity extends AppCompatActivity {
 
             if (j == 1) {
                 // If we have backed up the solution
-                if (gridSolution[1][1] != 0 ){
+                if (gridSolution[0][0] != 0 ){
                     button.setText(R.string.clue);
                     button.setTextColor(Color.RED);
                     button.setLayoutParams(gridParam);
@@ -492,9 +488,7 @@ public class ViewActivity extends AppCompatActivity {
                         areaTest = (grid[line + i][column + j] != value) && areaTest;
                     }
                 }
-
             }
-
             return (linearTest && columnTest && areaTest);
         }
     }
